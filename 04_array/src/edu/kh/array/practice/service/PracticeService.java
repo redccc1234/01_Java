@@ -18,19 +18,19 @@ public class PracticeService {
 		 * */
 		
 		int arr[] = new int[9];
-		
 		int sum = 0;
+	
 		
 		for(int i = 0 ; i < arr.length ; i++) {
-			
-			 System.out.print( (i+1)+" ");
+		
+			 System.out.print( (i+1) + " " );
 			 
 			if(i % 2 == 0) {
 				sum+=arr[i];
 			}
 		}
 		System.out.println();
-		System.out.printf(" 짝수 번째 인덱스 합 :  %d " ,  sum );
+		System.out.printf("짝수 번째 인덱스 합 :  %d " ,  sum );
 		
 	}
 	public void practice2(){

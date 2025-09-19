@@ -144,13 +144,9 @@ public class Array2Examlpe {
 			for(int col = 0 ; col < arr[row].length ; col++) {
 				
 				arr[row][col] = ch++;
-				 
-				
 			}
-
 		}
-		System.out.println(Arrays.deepToString(arr));
-		
+		System.out.println(Arrays.deepToString(arr));		
 	}
 	
 	
